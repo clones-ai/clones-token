@@ -350,7 +350,6 @@ npm run security        # Run again
 - **Explorer**: https://sepolia.basescan.org
 - **Faucets**: 
   - [Base Faucets](https://docs.base.org/base-chain/tools/network-faucets)
-  - [Coinbase Faucet](https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet)
 
 ### Adding to MetaMask
 ```json
