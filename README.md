@@ -19,7 +19,7 @@ This project provides:
 | Property         | Value                          |
 | ---------------- | ------------------------------ |
 | **Name**         | CLONES                         |
-| **Symbol**       | $CLONES                        |
+| **Symbol**       | CLONES                         |
 | **Decimals**     | 18                             |
 | **Total Supply** | 1,000,000,000 CLONES           |
 | **Network**      | Base Sepolia (Chain ID: 84532) |

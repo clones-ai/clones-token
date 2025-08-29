@@ -44,7 +44,7 @@ contract ClonesToken is ERC20, AccessControl, Pausable {
      * @dev Initializes the token with name, symbol, and grants roles to deployer
      * @param initialOwner Address that will receive admin roles and initial supply
      */
-    constructor(address initialOwner) ERC20("CLONES", "$CLONES") {
+    constructor(address initialOwner) ERC20("CLONES", "CLONES") {
         // AUDIT: Input validation - prevent zero address deployment
         if (initialOwner == address(0)) revert ZeroAddressOwner();
 

@@ -21,7 +21,7 @@ describe("ClonesToken", function () {
     describe("Deployment", function () {
         it("Should deploy with correct name and symbol", async function () {
             expect(await clonesToken.name()).to.equal("CLONES");
-            expect(await clonesToken.symbol()).to.equal("$CLONES");
+            expect(await clonesToken.symbol()).to.equal("CLONES");
             expect(await clonesToken.decimals()).to.equal(18);
         });
 
@@ -251,7 +251,7 @@ describe("ClonesToken", function () {
             // This test should check if the token implements the basic ERC20 functions
             expect(await clonesToken.totalSupply()).to.be.greaterThan(0);
             expect(await clonesToken.name()).to.equal("CLONES");
-            expect(await clonesToken.symbol()).to.equal("$CLONES");
+            expect(await clonesToken.symbol()).to.equal("CLONES");
         });
 
         it("Should support AccessControl interface", async function () {
