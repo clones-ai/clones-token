@@ -86,3 +86,4 @@ coverage
 slither-report.sarif
 slither-report.md
 slither-artifacts.zip
+deployments/info.md
