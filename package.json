@@ -1,0 +1,39 @@
+{
+  "name": "clones-token",
+  "version": "1.0.0",
+  "description": "CLONES token implementation for Base Sepolia testnet",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network baseSepolia",
+    "deploy:faucet": "npx hardhat run scripts/deploy-faucet.js --network baseSepolia",
+    "verify": "npx hardhat run scripts/verify.js --network baseSepolia",
+    "lint:sol": "solhint 'contracts/**/*.sol'",
+    "security": "slither . --config slither.config.json",
+    "security:production": "slither . --config slither-production.config.json",
+    "security:optimal": "slither . --config slither-optimal.config.json"
+  },
+  "keywords": [
+    "CLONES",
+    "ERC20",
+    "Base",
+    "Faucet"
+  ],
+  "author": "Clones Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/hardhat-upgrades": "^3.4.0",
+    "hardhat": "^2.26.3",
+    "prettier-plugin-solidity": "^1.4.0",
+    "solhint": "^6.0.1",
+    "solhint-plugin-prettier": "^0.1.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.1"
+  }
+}
